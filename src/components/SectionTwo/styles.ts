@@ -14,7 +14,7 @@ export const ContentSectionOne = styled.div`
     font-weight: 400;
     font-size: 1rem;
     line-height: 24px;
-    color: ${(props) => props.theme.white};
+    color: ${(props) => props.theme.black};
     text-align: justify;
   }
 
