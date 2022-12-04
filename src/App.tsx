@@ -1,13 +1,13 @@
 import { ThemeProvider } from 'styled-components'
 import { Footer } from './components/Footer'
-import { Title } from './components/Title'
+import { SectionOne } from './components/SectionOne'
 import { GlobalStyle } from './styles/global'
 import { defaultTheme } from './styles/themes/default'
 
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <Title text="dsfgadsgadgads" />
+      <SectionOne />
       <Footer />
       <GlobalStyle />
     </ThemeProvider>

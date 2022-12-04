@@ -1,12 +1,13 @@
 import { Container } from './styles'
 
-interface titleProps {
-  text: string
+export interface titleProps {
+  text?: string
+  textColor: 'primary' | 'second'
 }
 
-export function Title({ text }: titleProps) {
+export function Title({ text, textColor }: titleProps) {
   return (
-    <Container>
+    <Container textColor={textColor}>
       <h1>{text}</h1>
     </Container>
   )
