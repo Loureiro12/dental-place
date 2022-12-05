@@ -1,5 +1,6 @@
 import { ThemeProvider } from 'styled-components'
 import { Footer } from './components/Footer'
+import { SectionFive } from './components/SectionFive'
 import { SectionOne } from './components/SectionOne'
 import { SectionThree } from './components/SectionThree'
 import { SectionTwo } from './components/SectionTwo'
@@ -12,6 +13,7 @@ export function App() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <SectionFive />
       <Footer />
       <GlobalStyle />
     </ThemeProvider>
