@@ -2,6 +2,7 @@ import { ThemeProvider } from 'styled-components'
 import { Footer } from './components/Footer'
 import { SectionFive } from './components/SectionFive'
 import { SectionOne } from './components/SectionOne'
+import { SectionSix } from './components/SectionSix'
 import { SectionThree } from './components/SectionThree'
 import { SectionTwo } from './components/SectionTwo'
 import { GlobalStyle } from './styles/global'
@@ -13,6 +14,7 @@ export function App() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <SectionSix />
       <SectionFive />
       <Footer />
       <GlobalStyle />

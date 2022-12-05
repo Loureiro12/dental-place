@@ -10,7 +10,7 @@ export const Content = styled.div`
   width: 1200px;
   background: #f5f5f5;
   margin: 0 30px;
-  padding: 20px 20px;
+  padding: 30px 20px;
   display: flex;
   justify-content: space-between;
 `
