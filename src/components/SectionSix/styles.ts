@@ -14,4 +14,16 @@ export const ContentImg = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
+
+  @media screen and (max-width: 700px) {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 6.25rem 6.25rem;
+    margin: 0 auto;
+
+    img {
+      width: 90px;
+      height: 90px;
+    }
+  }
 `

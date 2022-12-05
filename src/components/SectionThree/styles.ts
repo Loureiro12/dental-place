@@ -25,6 +25,10 @@ export const Title = styled.h1`
   line-height: 44px;
   color: #070707;
   margin-bottom: 10px;
+
+  @media screen and (max-width: 700px) {
+    font-size: 1.75rem;
+  }
 `
 
 export const Caption = styled.p`
@@ -41,15 +45,26 @@ export const ContainerOption = styled.div`
   justify-content: space-between;
   display: flex;
   margin-top: 60px;
+
+  @media screen and (max-width: 700px) {
+    display: block;
+  }
 `
 
 export const Option = styled.div`
-  max-width: 253px;
   text-align: center;
 
   svg {
     font-size: 5.375rem;
     font-family: 'Inter';
+  }
+
+  @media screen and (max-width: 700px) {
+    margin-top: 30px;
+  }
+
+  @media screen and (min-width: 700px) {
+    max-width: 253px;
   }
 `
 

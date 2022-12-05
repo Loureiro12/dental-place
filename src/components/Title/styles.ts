@@ -11,5 +11,9 @@ export const Container = styled.div<titleProps>`
     line-height: 44px;
     color: ${({ textColor }) =>
       textColor === 'primary' ? '#070707' : '#FDFDFD'};
+
+    @media screen and (max-width: 700px) {
+      font-size: 1.75rem;
+    }
   }
 `
