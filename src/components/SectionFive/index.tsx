@@ -11,7 +11,10 @@ export function SectionFive() {
         <ImgLogo src={LogoGroup} alt="Logo da Dental Place" />
 
         <ContantButton>
-          <Button href="https://wa.me/message/YV36TSQUTAVMF" target="_blank">
+          <Button
+            href="https://api.whatsapp.com/send?phone=5531993191047&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20:)"
+            target="_blank"
+          >
             <img src={WhatsApp} alt="WhatsApp" />
           </Button>
 
